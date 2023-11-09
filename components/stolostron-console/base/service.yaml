@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: stolostron-console
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: stolostron-console
+    app.kubernetes.io/part-of: operator-test-1-2-x
+  name: stolostron-console
+spec:
+  ports:
+  - name: "3001"
+    port: 3001
+    targetPort: 3001
+  selector:
+    app.kubernetes.io/instance: stolostron-console
+status:
+  loadBalancer: {}
