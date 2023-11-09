@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/sdouglas1-tenant/operator-test-1-2-x/common-nodejs-parent-2-4-x@sha256:087a73f9eca1b6c1b06b05e93bcf879798bdfecc159ada8960871b1706c59efa
+      - image: quay.io/redhat-user-workloads/sdouglas1-tenant/operator-test-1-2-x/common-nodejs-parent-2-4-x@sha256:75b28cbe2fca2f1e2a360482ff30515c8ab4e49c2423530a3cf7e13eb2741d3a
         name: container-image
         resources: {}
 status: {}
