@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: common-nodejs-parent-2-4-x
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/sdouglas1-tenant/operator-test-1-2-x/common-nodejs-parent-2-4-x@sha256:1c80a41b2d667edea7c5abe877cd4180080f4b5264f6ca677c2f97e87cacf9df
+      - image: quay.io/redhat-user-workloads/sdouglas1-tenant/operator-test-1-2-x/common-nodejs-parent-2-4-x@sha256:087a73f9eca1b6c1b06b05e93bcf879798bdfecc159ada8960871b1706c59efa
         imagePullPolicy: Always
         name: container-image
         ports:
